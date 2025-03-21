@@ -40,3 +40,4 @@ frontend http-in
 backend servers
     balance roundrobin
     server web-01 44.202.5.182:80 check
+    server web-02 44.204.181.169:80 check
